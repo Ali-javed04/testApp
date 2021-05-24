@@ -4,3 +4,54 @@ width: 100%;
 
 background: linear-gradient(90deg, rgba(201, 137, 221, 0.9) -8.54%, rgba(133, 202, 250, 0.9) 108.12%);
 }
+.logo {
+  font-family: Avenir Next LT Pro;
+font-style: normal;
+font-weight: 600;
+font-size: 32.2424px;
+line-height: 39px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.logo-div {
+  padding-left: 80px;
+}
+.btn1 {
+  background: #FFFFFF;
+border-radius: 50px;
+color: #C989DD;
+padding: 10px 20px;
+border: none;
+
+}
+.qustion-btn {
+
+  border: none;
+  background: white;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+
+}
+.controctor-btn {
+  background: transparent;
+    border: none;
+    color: white;
+    font-size: 14px;
+
+}
+.controctor-span {
+
+  padding-left: 5px;
+
+
+}
+.controctor-div {
+  display: flex;
+
+}
+.question-div {
+  padding-top: 4px;
+}
