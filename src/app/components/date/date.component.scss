@@ -1,0 +1,119 @@
+.filter{
+margin-top: -40px;
+float: right;
+margin-right: 31px;
+border: 0.5px solid #AAAAAA;
+box-sizing: border-box;
+border-radius: 3px;
+}
+.heading1{
+    margin-top: 14px;
+    font-size: 31px;
+}
+.box1{
+    border-right: 1px solid grey;
+}
+.rectangle{
+
+width: 310px;
+height: 230px;
+margin-top: 10px;
+background: #FFFFFF;
+border: 1px solid #FCB769;
+box-sizing: border-box;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+border-radius: 6px;
+}
+.row1{
+    position: absolute;
+    width: 310px;
+    height: 46px;
+    left: 12px;
+    top: 193px;
+    background: #FCB769;
+    border-radius: 6px 6px 0px 0px;
+}
+.para1{
+    color: #FFFFFF;
+    font-family: Avenir Next LT Pro;
+    font-size: 14px;
+    position: absolute;
+width: 99.18px;
+height: 17.5px;
+left: 12px;
+top: 16.28px;
+}
+.clock{
+    position: absolute;
+width: 18px;
+height: 18px;
+left: 121px;
+margin-top: 18px;
+}
+.time{
+    position: absolute;
+width: 43.03px;
+height: 17.5px;
+margin-left: 148px;
+top: 16.65px;
+font-family: Avenir Next LT Pro;
+font-size: 14px;
+color: #FFFFFF;
+}
+.vector{
+    position: absolute;
+    left: 88.33%;
+    right: 10%;
+    top: 30.67%;
+    bottom: 6.67%;
+}
+.head2{
+    margin-top: 60px;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.para2{
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.para3{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Avenir Next LT Pro;
+    font-size: 15px;
+
+}
+.proche{
+    padding: 4px 10px 3px;
+    position: absolute;
+    width: 66px;
+    height: 30px;
+    text-align: center;
+    left: 249px;
+    top: 387px;
+    background: #9E58FF;
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+.head3{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+margin-top: 14px;
+font-size: 31px;
+line-height: 24px;
+align-items: center;
+color: #303030;
+}
+.btn3{
+    padding: 7px 23px;
+    width: 102px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: white;
+    background: linear-gradient(180deg, #6DC0F9 0%, #42B2FF 100%);
+    border-radius: 50px;
+}
