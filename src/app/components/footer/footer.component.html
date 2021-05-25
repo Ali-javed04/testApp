@@ -1,5 +1,5 @@
 <div class="container-fluid p-0 m-0">
-  <div class="first-part">
+  <div class="first-part" *ngIf="!currentState('date')">
     <div class="row">
       <div class="col-6">
 
@@ -20,7 +20,7 @@
     </div>
 
   </div>
-  <div class="second-part">
+  <div class="second-part" *ngIf="!currentState('date')">
     <div class="row">
       <div class="col-3">
         <h5 class="second-part-h">À propos de nom</h5>
