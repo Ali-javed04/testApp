@@ -1,8 +1,13 @@
 <div class="container-fluid custom-bg">
     <div class="row">
         <div class="col-md-3 col-lg-3 box1">
-            <h1 class="heading1">Mes Lorem Ipsum</h1>
-            <button class="filter">
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+
+              <h1 class="heading1">Mes Lorem Ipsum</h1>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+              <button class="filter">
                 <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M13.3594 1.42188H0.703125C0.516645 1.42188 0.337802 1.3478 0.205941 1.21593C0.0740791 1.08407 0 0.90523 0 0.71875C0 0.53227 0.0740791 0.353427 0.205941 0.221565C0.337802 0.0897039 0.516645 0.015625 0.703125 0.015625H13.3594C13.5459 0.015625 13.7247 0.0897039 13.8566 0.221565C13.9884 0.353427 14.0625 0.53227 14.0625 0.71875C14.0625 0.90523 13.9884 1.08407 13.8566 1.21593C13.7247 1.3478 13.5459 1.42188 13.3594 1.42188ZM11.0156 4.70312H3.04688C2.86039 4.70312 2.68155 4.62905 2.54969 4.49718C2.41783 4.36532 2.34375 4.18648 2.34375 4C2.34375 3.81352 2.41783 3.63468 2.54969 3.50282C2.68155 3.37095 2.86039 3.29688 3.04688 3.29688H11.0156C11.2021 3.29688 11.3809 3.37095 11.5128 3.50282C11.6447 3.63468 11.7188 3.81352 11.7188 4C11.7188 4.18648 11.6447 4.36532 11.5128 4.49718C11.3809 4.62905 11.2021 4.70312 11.0156 4.70312ZM8.20312 7.98438H5.85938C5.67289 7.98438 5.49405 7.9103 5.36219 7.77843C5.23033 7.64657 5.15625 7.46773 5.15625 7.28125C5.15625 7.09477 5.23033 6.91593 5.36219 6.78407C5.49405 6.6522 5.67289 6.57812 5.85938 6.57812H8.20312C8.38961 6.57812 8.56845 6.6522 8.70031 6.78407C8.83217 6.91593 8.90625 7.09477 8.90625 7.28125C8.90625 7.46773 8.83217 7.64657 8.70031 7.77843C8.56845 7.9103 8.38961 7.98438 8.20312 7.98438Z"
@@ -10,6 +15,9 @@
                 </svg>
                 Filter
             </button>
+            </div>
+          </div>
+
             <div class="row mt-4">
               <div class="col-11">
                 <div class="card p-0">
@@ -61,7 +69,7 @@
                     a sed viverra proin vitae. At cursus pulvinar ac est urna.</p>
                     </div>
                     <div class="row custom-right">
-                      <div class="col-3">
+                      <div class="col-md-3">
 
                         <button class="proche btn">Proche</button>
                       </div>
@@ -77,9 +85,9 @@
         </div>
         <div class="col-md-9 col-lg-9 ">
           <div class="row mt-4">
-            <div class="col-6">
+            <div class="col-md-6">
               <div class="row">
-                <div class="col-4">
+                <div class="col-6">
 
 
                   <h3 class="head3">Mon agenda</h3>
@@ -91,8 +99,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-6 custom-right">
-              <div class="col-6">
+            <div class="col-md-6 custom-right">
+              <div class="col-md-6">
 
                 <button class=" btn btnj ml-2 mr-2">Journee</button>
 
@@ -128,68 +136,71 @@
 
             </div>
             <div class="col-10">
-              <table class="table table-hover custom-table">
-                <thead>
-                  <tr>
-                  <th class="custom-th">
-                    <p>Lun</p>
-                    17/04
-                  </th>
-                  <th class="custom-th">
-                    <p>Mar</p>
-                    18/04
-                  </th>
-                  <th class="custom-th">
-                    <p>Mer</p>
-                    19/04
-                  </th>
-                  <th class="custom-th">
-                    <p>Jeu</p>
-                    20/04
-                  </th>
-                  <th class="custom-th">
-                    <p>Ven</p>
-                    21/04
-                  </th>
-                  <th class="custom-th">
-                    <p>Sam</p>
-                    22/04
-                  </th>
-                  <th class="custom-th">
-                    <p>Dim</p>
-                    23/04
-                  </th>
-                </tr>
-                </thead>
-                <tbody>
-                  <tr *ngFor="let item of data">
-                    <td class="custom-td">
-                      {{item.day1}}
-
-                    </td>
-                    <td class="custom-td">
-                      {{item.day2}}
-                    </td>
-                    <td class="custom-td">
-                      {{item.day3}}
-                    </td>
-                    <td class="custom-td">
-                      {{item.day4}}
-                    </td>
-                    <td class="custom-td">
-                      {{item.day5}}
-                    </td>
-                    <td class="custom-td">
-                      {{item.day6}}
-                    </td>
-                    <td class="custom-td">
-                      {{item.day7}}
-                    </td>
+              <div class="table-responsive">
+                <table class="table table-hover custom-table">
+                  <thead>
+                    <tr>
+                    <th class="custom-th">
+                      <p>Lun</p>
+                      17/04
+                    </th>
+                    <th class="custom-th">
+                      <p>Mar</p>
+                      18/04
+                    </th>
+                    <th class="custom-th">
+                      <p>Mer</p>
+                      19/04
+                    </th>
+                    <th class="custom-th">
+                      <p>Jeu</p>
+                      20/04
+                    </th>
+                    <th class="custom-th">
+                      <p>Ven</p>
+                      21/04
+                    </th>
+                    <th class="custom-th">
+                      <p>Sam</p>
+                      22/04
+                    </th>
+                    <th class="custom-th">
+                      <p>Dim</p>
+                      23/04
+                    </th>
                   </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let item of data">
+                      <td class="custom-td">
+                        {{item.day1}}
+
+                      </td>
+                      <td class="custom-td">
+                        {{item.day2}}
+                      </td>
+                      <td class="custom-td">
+                        {{item.day3}}
+                      </td>
+                      <td class="custom-td">
+                        {{item.day4}}
+                      </td>
+                      <td class="custom-td">
+                        {{item.day5}}
+                      </td>
+                      <td class="custom-td">
+                        {{item.day6}}
+                      </td>
+                      <td class="custom-td">
+                        {{item.day7}}
+                      </td>
+                    </tr>
 
 
-                </tbody>
-              </table>
+                  </tbody>
+                </table>
+              </div>
+
 
             </div>
             <div class="col-1 next-btn">

@@ -3,6 +3,9 @@ height: 99px;
 width: 100%;
 
 background: linear-gradient(90deg, rgba(201, 137, 221, 0.9) -8.54%, rgba(133, 202, 250, 0.9) 108.12%);
+@media only screen and (max-width:480px) {
+  height: fit-content;
+}
 }
 .logo {
   font-family: Avenir Next LT Pro;
@@ -65,4 +68,40 @@ border: none;
 }
 .m-custom {
   margin-left: 40px;
+}
+.ul-pattran {
+  display: flex;
+  list-style-type: none;
+  float: right;
+  padding-top: 22px;
+
+  @media only screen and (max-width:480px) {
+    display: block;
+    padding-top: 2px;
+    margin-top: 45px;
+  }
+}
+.custom-li {
+  padding-right: 20px;
+
+  @media only screen and (max-width:480px) {
+
+  padding: 5px;
+
+  .custom-li:hover {
+    background: black;
+    color: white;
+  }
+  }
+
+}
+.j-center {
+  justify-content: center;
+  display: flex;
+
+}
+.f-right {
+  float: right;
+  background:transparent;
+  border: none;
 }

@@ -1,3 +1,4 @@
+
 .main-one {
   background: #E5E5E5;
 }
@@ -49,4 +50,9 @@ color: #303030;
 .custom-img {
   margin-top: 227px;
   margin-left: -94px;
+}
+.bg-mobile {
+  @media only screen and (max-width:480px) {
+    display: none;
+  }
 }
